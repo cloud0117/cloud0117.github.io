@@ -25,7 +25,7 @@
 
 <section id="ko">
 <h1>도트 서바이벌 개인정보처리방침</h1>
-<p class="meta">시행일: 2026년 10월 9일 · 운영자: 도트 서바이벌 개발자 · 문의: gkadnsgud@gmail.com</p>
+<p class="meta">시행일: 2026년 10월 12일 · 운영자: 도트 서바이벌 개발자 · 문의: gkadnsgud@gmail.com</p>
 
 <h2>1. 개발자가 직접 수집하는 정보</h2>
 <p>도트 서바이벌(이하 “게임”)은 회원가입이나 로그인이 없으며, 개발자는 이름·연락처 등 개인을 식별할 수 있는 정보를 수집하거나 서버에 저장하지 않습니다.</p>
@@ -53,23 +53,35 @@
 <p>선택의 부적은 Google Play 게임즈에 로그인한 뒤 살 수 있으며, 받은·쓴·환불로 차감된 부적 수를 이용자의 Google 계정 저장 공간(Play 게임즈 저장 기능)에 백업해 앱을 다시 설치하거나 기기를 바꿔도 이어지게 합니다. 백업에는 기기마다 만든 무작위 값, 구매마다 구매 토큰을 알아볼 수 없게 바꾼 값(해시)과 부적 수만 들어가며, 개발자의 서버로는 전송되지 않습니다. 환불된 부적은 회수되고, 이미 쓴 만큼은 이후 받는 부적에서 차감됩니다.</p>
 <p>광고 제거를 구매하면 광고를 표시하지 않고 광고 SDK도 시작하지 않습니다.</p>
 
-<h2>5. 이용자의 선택</h2>
+<h2>5. 1:1 온라인 대전 (Unity Gaming Services)</h2>
+<p>1:1 대전에서 다른 이용자를 찾고 연결하기 위해 Unity Technologies의 서비스(Authentication·Lobby·Relay)를 사용합니다. 대전을 시작할 때만 다음 정보가 Unity 서버를 거쳐 처리됩니다.</p>
+<ul>
+  <li>Unity가 이 앱 설치에 만든 익명 플레이어 ID(이름·연락처·Google 계정과 연결되지 않음)</li>
+  <li>대전 닉네임(이용자가 정한 이름, 정하지 않으면 익명 ID로 자동으로 만든 이름), 고른 캐릭터·의상·이펙트, 강화 단계, 전투력</li>
+  <li>대전 중 캐릭터 위치·체력·무기 등 게임 데이터, 연결에 필요한 IP 주소</li>
+</ul>
+<p>상대 이용자에게는 닉네임·캐릭터·전투력과 대전 화면이 보입니다. 대전 방(로비) 정보는 대전이 끝나면 지우며, 개발자는 이 정보를 따로 저장하지 않습니다. 이 정보는 Unity의 개인정보처리방침에 따라 처리됩니다. 1:1 대전을 하지 않으면 전송되지 않습니다.</p>
+<ul>
+  <li>Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+</ul>
+
+<h2>6. 이용자의 선택</h2>
 <ul>
   <li>안드로이드 [설정 &gt; 개인정보 보호 &gt; 광고]에서 광고 ID를 재설정하거나 삭제해 맞춤 광고를 끌 수 있습니다.</li>
   <li>Google Play 게임즈 앱에서 프로필 공개 범위를 바꾸거나 기록·저장된 게임 데이터를 관리할 수 있습니다.</li>
   <li>유럽경제지역(EEA)·영국·스위스 이용자에게는 처음 실행할 때 광고 동의 창이 표시되며, 게임의 [설정 &gt; 광고 개인정보 설정]에서 언제든 선택을 바꿀 수 있습니다.</li>
 </ul>
 
-<h2>6. 아동</h2>
+<h2>7. 아동</h2>
 <p>게임은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
 
-<h2>7. 보관과 파기</h2>
-<p>개발자는 이용자의 개인정보를 보관하지 않습니다. 기기에 저장된 게임 기록은 앱을 삭제하면 파기됩니다. Play 게임즈 저장에 백업한 부적 개수는 이용자가 Google Play 게임즈에서 게임 데이터를 지울 때까지 남습니다. Google이 처리하는 정보의 보관 기간은 Google의 정책을 따릅니다.</p>
+<h2>8. 보관과 파기</h2>
+<p>개발자는 이용자의 개인정보를 보관하지 않습니다. 기기에 저장된 게임 기록은 앱을 삭제하면 파기됩니다. Play 게임즈 저장에 백업한 부적 개수는 이용자가 Google Play 게임즈에서 게임 데이터를 지울 때까지 남습니다. 1:1 대전 방 정보는 대전이 끝나면 지웁니다. Google·Unity가 처리하는 정보의 보관 기간은 각 회사의 정책을 따릅니다.</p>
 
-<h2>8. 방침의 변경</h2>
+<h2>9. 방침의 변경</h2>
 <p>이 방침이 바뀌면 게임 업데이트 또는 이 페이지를 통해 알립니다.</p>
 
-<h2>9. 문의</h2>
+<h2>10. 문의</h2>
 <p>개인정보와 관련한 문의는 <a href="mailto:gkadnsgud@gmail.com">gkadnsgud@gmail.com</a> 으로 보내 주세요.</p>
 </section>
 
@@ -77,7 +89,7 @@
 
 <section id="en">
 <h1>Dot Survival Privacy Policy</h1>
-<p class="meta">Effective: October 9, 2026 · Operator: Dot Survival Developer · Contact: gkadnsgud@gmail.com</p>
+<p class="meta">Effective: October 12, 2026 · Operator: Dot Survival Developer · Contact: gkadnsgud@gmail.com</p>
 
 <h2>1. Information the developer collects</h2>
 <p>Dot Survival (the “Game”) has no sign-up or login. The developer does not collect personally identifiable information such as your name or contact details, and does not store any of your data on a server.</p>
@@ -105,23 +117,35 @@
 <p>Charms of Choice can be bought after signing in to Google Play Games, and the counts of charms received, used and deducted for refunds are backed up to your Google account storage (Play Games saved games) so they carry over to a reinstall or a new device. The backup contains only a random per-device value, an unreadable hash of each purchase token and charm counts, and is never sent to the developer's servers. Refunded charms are taken back, and any already used are deducted from charms you get later.</p>
 <p>If you buy Remove Ads, the Game shows no ads and does not start the ad SDK.</p>
 
-<h2>5. Your choices</h2>
+<h2>5. 1v1 online duels (Unity Gaming Services)</h2>
+<p>To find and connect you with other players in 1v1 duels, the Game uses Unity Technologies' services (Authentication, Lobby, Relay). Only when you start a duel, the following is processed through Unity's servers:</p>
+<ul>
+  <li>An anonymous player ID that Unity creates for this app install (not linked to your name, contact details or Google account)</li>
+  <li>Your duel nickname (the name you choose, or one generated from the anonymous ID), chosen hero, outfit, effect, upgrade levels and power</li>
+  <li>Game data during the duel such as your hero's position, HP and weapons, and the IP address needed for the connection</li>
+</ul>
+<p>Your opponent sees your nickname, hero, power and the duel itself. Duel room (lobby) data is deleted when the duel ends, and the developer does not store this information. It is handled under Unity's Privacy Policy. Nothing is sent if you don't play 1v1 duels.</p>
+<ul>
+  <li>Unity Privacy Policy: <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+</ul>
+
+<h2>6. Your choices</h2>
 <ul>
   <li>You can reset or delete your advertising ID in Android Settings &gt; Privacy &gt; Ads to turn off personalized ads.</li>
   <li>You can change your profile visibility or manage your records and saved game data in the Google Play Games app.</li>
   <li>Users in the EEA, UK and Switzerland see a consent form on first launch and can change their choice at any time in the Game under Settings &gt; Ad privacy settings.</li>
 </ul>
 
-<h2>6. Children</h2>
+<h2>7. Children</h2>
 <p>The Game is not directed to children under 13 and does not knowingly collect personal information from children.</p>
 
-<h2>7. Retention and deletion</h2>
-<p>The developer does not retain your personal information. Game data stored on your device is deleted when you uninstall the app. The charm count backed up to Play Games saved games remains until you delete the game data in Google Play Games. Retention of information processed by Google follows Google’s policies.</p>
+<h2>8. Retention and deletion</h2>
+<p>The developer does not retain your personal information. Game data stored on your device is deleted when you uninstall the app. The charm count backed up to Play Games saved games remains until you delete the game data in Google Play Games. Duel room data is deleted when the duel ends. Retention of information processed by Google and Unity follows their policies.</p>
 
-<h2>8. Changes</h2>
+<h2>9. Changes</h2>
 <p>If this policy changes, we will notify you through a game update or this page.</p>
 
-<h2>9. Contact</h2>
+<h2>10. Contact</h2>
 <p>For privacy questions, contact <a href="mailto:gkadnsgud@gmail.com">gkadnsgud@gmail.com</a>.</p>
 </section>
 </main>
